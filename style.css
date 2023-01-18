@@ -34,7 +34,7 @@ button {
   gap: 12px;
 }
 
-form {
+#form-habits {
   display: flex;
   padding-top: 48px;
 }

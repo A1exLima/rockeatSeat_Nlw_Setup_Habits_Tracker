@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Roboto+Mono:wght@700&display=swap"
+      rel="stylesheet"
+    />
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Alex Lima" />
+    <meta
+      name="description"
+      content="Habit Tracker - Nlw Setup Rockeatseat - Assistente de controle de hábitos"
+    />
+    <meta
+      name="robots"
+      content="follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="icon" type="image/svg" sizes="32x32" href="./assets/logo.svg" />
+
+    <title>Habits Tracker - Assistente de Controle de Hábitos</title>
+  </head>
+
+  <body>
+    <header>
+      <img src="./assets/logo.svg" alt="Logomarca do aplicativo Habits" />
+      <button>
+        <img
+          src="./assets/iconButton.svg"
+          alt="Icone de Adicionar registro do dia (Sinal de +)"
+        />
+        <p>Registrar meu dia</p>
+      </button>
+    </header>
+
+    <form action="">
+      <div class="habits">
+        <div class="habit">🏃‍♂️</div>
+        <div class="habit">💧</div>
+        <div class="habit">🍎</div>
+      </div>
+
+      <div class="days">
+        <div class="day">
+          <div>03/01</div>
+          <input type="checkbox" name="run" checked />
+          <input type="checkbox" name="water" />
+          <input type="checkbox" name="food" />
+        </div>
+
+        <div class="day">
+          <div>04/01</div>
+          <input type="checkbox" name="run" checked />
+          <input type="checkbox" name="water" />
+          <input type="checkbox" name="food" />
+        </div>
+      </div>
+    </form>
+  </body>
+</html>
